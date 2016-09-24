@@ -1,0 +1,27 @@
+{
+    "name": "karion/normalizer",
+    "type": "test",
+    "authors": [
+        {
+            "name": "Tomasz Szymczyk",
+            "email": "karion.ubuntu@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpspec/phpspec": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "karion\\Nauka\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "spec\\karion\\Nauka\\": "spec/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
