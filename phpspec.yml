@@ -1,0 +1,4 @@
+suites:
+    main:
+        namespace: karion\Nauka
+        psr4_prefix: karion\Nauka
